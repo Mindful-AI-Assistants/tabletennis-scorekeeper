@@ -9,8 +9,8 @@
 
 
   <!--  START HEADER  -->
-## < p align = "center" > 🏓 SmartPing: Aplicativo de Assistente de Placar e Torneio de Tênis de Mesa 
-#### < p align = "center" > Aplicativo de Pontuação de Tênis de Mesa; Um aplicativo inteligente para gerenciar os placares de tênis de mesa e as classificações dos jogadores. Construído como um projeto final para o curso de NoSQL (PUC-SP).
+## <p align = "center" > 🏓 SmartPing: Aplicativo de Assistente de Placar e Torneio de Tênis de Mesa 
+#### <p align = "center" > Aplicativo de Pontuação de Tênis de Mesa; Um aplicativo inteligente para gerenciar os placares de tênis de mesa e as classificações dos jogadores. Construído como um projeto final para o curso de NoSQL (PUC-SP).
 
 
  
