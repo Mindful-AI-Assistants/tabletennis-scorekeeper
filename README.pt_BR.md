@@ -278,14 +278,20 @@ Equipe PUC-SP - Ciência de Dados e Humanistic AI - CDIA - Banco de Dados NoSQL
 
 
 
-<br><br><br><br>
+<br><br>
 
-<br>
+## 💌 [Let the data flow... Ping Us]()
 
 
-## 💌 [Let the data flow... Ping Me !](mailto:fabicampanari@proton.me)
+- 👩🏻‍🚀 **Fabiana Campanari** - [Shoot me an email](mailto:fabicampanari@proton.me)
+  
+- 🧑🏼‍🚀 **PedroVyctor** - [Hit me up by email](mailto:pedro.vyctor00@gmail.com)
 
-<br>
+- 👨🏽‍🚀 **Andson Ribeiro** - [Slide into my inbox]()
+
+
+
+<br> 
 
 
 #### <p align="center">  🛸๋ My Contacts [Hub](https://linktr.ee/fabianacampanari)
@@ -307,6 +313,8 @@ Equipe PUC-SP - Ciência de Dados e Humanistic AI - CDIA - Banco de Dados NoSQL
 <br>
 
 <p align="center"> ➣➢➤ <a href="#top">Back to Top </a>
+  
+
   
 
 #
