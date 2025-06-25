@@ -10,7 +10,7 @@
 
   <!--  START HEADER  -->
 ## <p align = "center" > 🏓 SmartPing: Aplicativo de Assistente de Placar e Torneio de Tênis de Mesa 
-#### <p align = "center" > Aplicativo de Pontuação de Tênis de Mesa; Um aplicativo inteligente para gerenciar os placares de tênis de mesa e as classificações dos jogadores. Construído como um projeto final para o curso de NoSQL (PUC-SP).
+#### <p align = "center" > Aplicativo de Pontuação de Tênis de Mesa; Um aplicativo inteligente para gerenciar os placares de tênis de mesa e as classificações dos jogadores. Construído como um projeto final de Atividade Extensionista  para o curso de NoSQL da graduação em Ciência de Dados e Humanistic AI - PUC-SP  
 
 
  
@@ -22,9 +22,9 @@
 
 
 
-# Trabalho Final - Atividade Extensionista  
+# Trabalho Final - 
 ### Disciplina: NoSQL  
-### Curso: Ciência de Dados e Humanistic AI - PUC-SP  
+### Curso: 
 ### Data de Entrega: 27 de Junho de 2025
 
 ---
