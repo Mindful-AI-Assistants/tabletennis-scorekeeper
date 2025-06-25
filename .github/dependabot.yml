@@ -1,3 +1,4 @@
+
 version: 2  
 
 updates:  
@@ -20,7 +21,3 @@ updates:
       prefix: "fix"  # Prefixo na mensagem de commit  
       include: "scope"  # Inclui o nome da dependência na mensagem  
     versioning-strategy: "auto"  # Estratégia de versão
-
-
-
-
