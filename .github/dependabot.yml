@@ -21,3 +21,4 @@ updates:
       include: "scope"  # Inclui o nome da dependência na mensagem  
     versioning-strategy: "auto"  # Estratégia de versão
 
+
