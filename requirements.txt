@@ -1,0 +1,4 @@
+pandas>=2.2.3
+numpy>=2024.11.6
+flet>=0.26.0
+datetime
