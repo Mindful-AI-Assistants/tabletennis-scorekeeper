@@ -280,9 +280,14 @@ Equipe PUC-SP - Ciência de Dados e Humanistic AI - CDIA - Banco de Dados NoSQL
 
 <br><br>
 
+<<<<<<< FabianaCampanari-patch-1
+=======
+## 💌 [Let the data flow... Ping Us]()
+>>>>>>> main
 
 ## 💌 [Let the data flow... Ping Us]()
 
+<<<<<<< FabianaCampanari-patch-1
 
 - 👩🏻‍🚀 **Fabiana Campanari** - [Shoot me an email](mailto:fabicampanari@proton.me)
   
@@ -290,6 +295,14 @@ Equipe PUC-SP - Ciência de Dados e Humanistic AI - CDIA - Banco de Dados NoSQL
 
 - 👨🏽‍🚀 **Andson Ribeiro** - [Slide into my inbox]()
 
+=======
+- 👩🏻‍🚀 **Fabiana Campanari** - [Shoot me an email](mailto:fabicampanari@proton.me)
+  
+- 🧑🏼‍🚀 **PedroVyctor** - [Hit me up by email](mailto:pedro.vyctor00@gmail.com)
+
+- 👨🏽‍🚀 **Andson Ribeiro** - [Slide into my inbox]()
+
+>>>>>>> main
 
 
 <br> 
@@ -316,6 +329,10 @@ Equipe PUC-SP - Ciência de Dados e Humanistic AI - CDIA - Banco de Dados NoSQL
 <p align="center"> ➣➢➤ <a href="#top">Back to Top </a>
   
 
+<<<<<<< FabianaCampanari-patch-1
+=======
+  
+>>>>>>> main
 
 #
  
