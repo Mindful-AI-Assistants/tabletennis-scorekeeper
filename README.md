@@ -15,7 +15,15 @@
 
 #### <p align="center"> [![Sponsor Mindful AI Assistants](https://img.shields.io/badge/Sponsor-Mindful%20AI%20%20Assistants-brightgreen?logo=GitHub)](https://github.com/sponsors/Mindful-AI-Assistants)
 
+
 <br><br>
+
+ <p align="center">
+<img src="https://github.com/user-attachments/assets/5001ffb7-9bc1-4228-a38f-af5f1e2d6677"/>
+
+<br><br>
+
+
 
 
 Currently, the project is in the prototype stage, with the potential to achieve full automation of scoring and player ranking through the implementation of sensors on the table and the ball. These sensors would enable automatic point counting, although human supervision (referee) remains essential to ensure accuracy and prevent errors.
