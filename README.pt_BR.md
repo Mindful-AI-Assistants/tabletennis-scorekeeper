@@ -27,9 +27,9 @@
 ### Curso: 
 ### Data de Entrega: 27 de Junho de 2025
 
----
+<br>
 
-## Sumário
+## Table of Contents
 
 1. [Briefing](#1-briefing)  
 2. [Explicação do Projeto](#2-explicação-do-projeto)  
@@ -43,7 +43,7 @@
 7. [Próximos Passos / Possibilidades Futuras](#7-próximos-passos--possibilidades-futuras)  
 8. [Referências e Ferramentas Utilizadas](#8-referências-e-ferramentas-utilizadas)  
 
----
+<br>
 
 ## 1. Briefing
 
@@ -82,14 +82,17 @@ O projeto visa:
 
 ## 3. Participantes do Grupo
 
-| Nome Completo                | Contato                  |
-|-----------------------------|--------------------------|
-| João Silva                  | joao.silva@email.com     |
-| Maria Oliveira              | maria.oliveira@email.com |
-| Lucas Fernandes             | lucas.fernandes@email.com|
-| Ana Paula Santos            | ana.santos@email.com     |
-| Fabiana Rotella Campanari   | fabiana.campanari@email.com |
+## 🧑🏼‍🚀 [Team Members]():
 
+| Name                    | Role                                             |
+|-------------------------|--------------------------------------------------|
+| **Andson Ribeiro**       | [Github](https://github.com/andsonandreribeiro09) - [Contact]() |
+| **Fabiana 🧬 Campanari** | [Github](https://github.com/FabianaCampanari) - [Contact Hub](https://linktr.ee/fabianacampanari)   |
+| **Gabriel Moraes         | [Github]()  - [Contact]()
+| **Leonardo X Fernandes** |   [Github](https://github.com/LeonardoXF)  - [Contact]()  |
+|  **Pedro Vyctor Almeida** |  [Github](https://github.com/ppvyctor) - [Contact]()    |
+
+<!--
 ---
 
 ## 4. Principais Códigos do Projeto
