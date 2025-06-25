@@ -64,25 +64,120 @@ Este trabalho final integra a atividade extensionista prevista na Unidade Curric
 3. Modelos (Conceitual, Lógico e Físico)  
 4. Execução das queries  
 
----
+<br>
 
 ## 2. Explicação do Projeto
 
 O aplicativo desenvolvido tem como finalidade facilitar o controle da pontuação em partidas de Tênis de Mesa. Ele elimina a necessidade de placares físicos e automatiza o processo de classificação dos jogadores para as próximas etapas dos torneios.  
 
-Embora o sistema atual seja um protótipo, há potencial para automatizar 100% da pontuação usando sensores na mesa e na bolinha, para registrar automaticamente os pontos. Porém, devido a possíveis erros, a presença de um juiz ainda é essencial para validar a pontuação.  
+Atualmente, o projeto encontra-se em estágio protótipo, com potencial para alcançar automação total da pontuação e classificação dos jogadores por meio da implementação de sensores na mesa e na bolinha. Esses sensores possibilitariam a contagem automática dos pontos marcados, embora a supervisão humana (juiz) permaneça essencial para garantir a correção e prevenir erros.
 
-O projeto visa:  
+
+O foco está em simplificar e tornar mais eficiente o trabalho dos organizadores de eventos esportivos, proporcionando um ambiente digital moderno e confiável para o gerenciamento das competições.
+
+O sistema permite:
+
 - Facilitar a contabilização dos pontos nas partidas;  
 - Permitir a criação e gestão de equipes;  
 - Futuramente, possibilitar a criação e controle de torneios;  
 - Otimizar a classificação dos jogadores, tornando o trabalho dos organizadores mais simples e eficiente.
+- Visualização e atualização dinâmica do ranking dos atletas.
 
----
+<br>
 
-## 3. Participantes do Grupo
+## 3. Atividade Extensionista
 
-## 🧑🏼‍🚀 [Team Members]():
+Para contemplar a Unidade Curricular, realizamos as seguintes etapas:
+
+| Etapa                                | Descrição                                                                                  |
+|-------------------------------------|--------------------------------------------------------------------------------------------|
+| Identificação dos atores (Personas) | Definimos perfis dos usuários do sistema: jogadores, juízes, organizadores e público.      |
+| Modelo Conceitual                   | Construção do diagrama entidade-relacionamento que define as principais entidades e relações.|
+| Modelo Lógico                      | Tradução do modelo conceitual para modelo lógico (relacional/NoSQL) para estruturação do banco.|
+| Popular o Banco de Dados            | Inserção de pelo menos 5 registros reais para teste e validação do sistema.                |
+| Modelo Físico                     | Definição do modelo físico da base, como armazenamento, índices e particionamento.          |
+| Criação de Perguntas e Queries     | Desenvolvimento de 10 perguntas chave para o banco e implementação das queries correspondentes.|
+| Desenvolvimento do App             | Construção do aplicativo para interagir com o banco, incluindo cadastro, controle de pontuação e visualização. |
+
+
+<br>
+
+## 4. Personas (Atores Envolvidos)
+
+| Persona          | Descrição                                                                                   |
+|------------------|---------------------------------------------------------------------------------------------|
+| Jogador          | Atleta participante das partidas, precisa registrar seus dados, pontuação e consultar rankings.|
+| Juiz             | Responsável pela supervisão das partidas e validação da pontuação automática.               |
+| Organizador      | Gerencia torneios, cria equipes, partidas e controla o fluxo de jogos.                      |
+| Espectador       | Acompanha as partidas e rankings, tem acesso às informações públicas do torneio.           |
+| Administrador    | Usuário com privilégios para gerenciar dados sensíveis, validar usuários e códigos administrativos.|
+
+
+
+<br>
+
+
+## 5. Modelos Desenvolvidos
+
+### 5.1 Modelo Conceitual  
+Diagrama Entidade-Relacionamento (ER) contemplando:  
+- Entidades: Jogador, Equipe, Partida, Torneio, Pontuação, Juiz.  
+- Relacionamentos: Jogador pertence a Equipe, Partida envolve Jogadores, Torneio contém Partidas, Juiz supervisiona Partida, Pontuação atribuída a Jogador em Partida.
+
+### 5.2 Modelo Lógico  
+Conversão do modelo ER para estruturas NoSQL orientadas a documentos, armazenando jogadores, equipes, partidas e resultados em coleções específicas.  
+
+### 5.3 Modelo Físico  
+Implementação física no banco NoSQL escolhido (ex: MongoDB), com definição de índices para consulta rápida por jogador, partidas e torneios, além de estrutura para controle de versões e auditoria dos dados.
+
+
+<br>
+
+## 6. População do Banco de Dados
+
+- Inseridos registros iniciais para 5 jogadores, equipes e partidas de exemplo, permitindo teste e validação do sistema.
+
+
+<br>
+
+## 7. Consultas Criadas
+
+Elaboração de 10 perguntas essenciais para a operação do banco, tais como:
+
+- Quem são os jogadores participantes de determinado torneio?  
+- Qual o ranking atual dos jogadores?  
+- Quais partidas já foram finalizadas?  
+- Qual o histórico de partidas de um jogador?  
+- Quantos pontos cada jogador marcou em uma partida específica?  
+- Quais equipes estão cadastradas e seus membros?  
+- Quem foi o juiz responsável por uma partida?  
+- Quais jogadores estão sem equipe?  
+- Quais jogadores têm pontuações iguais?  
+- Quais partidas estão agendadas para a próxima semana?
+
+Todas as perguntas possuem suas queries correspondentes implementadas para acesso rápido e eficiente.
+
+<BR>
+
+## 8. Aplicativo
+
+O aplicativo é desenvolvido com interface gráfica intuitiva usando Flet, permitindo:  
+
+- Cadastro de jogadores, equipes e torneios;  
+- Seleção de partidas e controle de pontuação em tempo real;  
+- Visualização detalhada do ranking dos atletas;  
+- Alternância entre temas claro e escuro;  
+- Segurança no acesso via senhas para jogadores e administradores.
+
+<br>
+
+## 9. Considerações Finais
+
+Este projeto alia tecnologias modernas de bancos de dados NoSQL e desenvolvimento de aplicações para resolver um problema real e prático no âmbito esportivo. A integração entre o banco e o app proporciona uma experiência robusta e funcional que pode ser expandida com futuras melhorias, como automação total por sensores e integração com dispositivos IoT.
+
+<br>
+
+## 10. 🧑🏼‍🚀 [Team Members]():
 
 | Name                    | Role                                             |
 |-------------------------|--------------------------------------------------|
@@ -92,36 +187,31 @@ O projeto visa:
 | **Leonardo X Fernandes** |   [Github](https://github.com/LeonardoXF)  - [Contact]()  |
 |  **Pedro Vyctor Almeida** |  [Github](https://github.com/ppvyctor) - [Contact]()    |
 
-<!--
----
+<br>
 
-## 4. Principais Códigos do Projeto
+## 11. Referências
 
-### 4.1 Signup.py - Tela de Cadastro
+- Documentação oficial do MongoDB  
+- Documentação da biblioteca Flet  
+- PUC-SP - Material didático CDIA - Banco de Dados NoSQL  
 
-```python
-import flet as ft
-from DataBase import DataBase
+<br>
 
-def Signup(page: ft.Page, conn: DataBase) -> ft.Ref[ft.Column]:
-    Accound_Confirmation = False
-    Container_SignUp = ft.Ref[ft.Column]()
-    
-    def Accound_Verification() -> None:
-        nonlocal Accound_Confirmation
-        # Validações dos campos de cadastro para Atleta e Time
-        # Configura mensagens de erro e ajusta layout dinamicamente
-        # Se tudo correto, seta Accound_Confirmation = True e atualiza layout
-        
-    def update_layout() -> None:
-        nonlocal Container_SignUp, Accound_Confirmation
-        # Atualiza layout conforme estado de confirmação de cadastro
-        # Insere dados no banco ao confirmar
-    
-    # Construção inicial do layout de cadastro, com dropdown para tipo e campos correspondentes
-    
-    update_layout()
-    return Container_SignUp.current
+**Desenvolvido por:**  
+Equipe PUC-SP - Ciência de Dados e Humanistic AI - CDIA - Banco de Dados NoSQL  
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
