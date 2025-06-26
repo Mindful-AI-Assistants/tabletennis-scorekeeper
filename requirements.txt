@@ -1,7 +1,9 @@
 
 
+
 # Framework Web Application:
 streamlit==1.46.0
+Django==5.1.7
 
 # Database Libraries:
 sqlalchemy==2.0.41
