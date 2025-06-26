@@ -13,7 +13,7 @@ numpy==1.26.0
 pandas==2.2.2
 
 # UI Framework
-flet==0.26.0
+flet==0.28.3
 
 # Jupyter Notebook Libraries:
 jupyter==1.1.1
