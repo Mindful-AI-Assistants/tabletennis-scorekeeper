@@ -9,6 +9,9 @@ Django==5.1.7
 sqlalchemy==2.0.41
 
 # Data Manipulation Libraries:
+
+numpy==1.26.0
+pandas==2.3.0
 numpy==2.0.2
 pandas==2.2.2
 
