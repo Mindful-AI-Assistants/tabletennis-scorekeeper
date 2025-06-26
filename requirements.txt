@@ -1,4 +1,6 @@
-pandas>=2.2.3
-numpy>=2024.11.6
+# Data Manipulation Libraries:
+numpy==1.26.0
+pandas==2.2.2
+
+# UI Framework
 flet>=0.26.0
-datetime
