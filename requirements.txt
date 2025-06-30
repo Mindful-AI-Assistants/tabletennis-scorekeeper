@@ -13,7 +13,7 @@ sqlalchemy==2.0.41
 numpy==1.26.0
 pandas==2.3.0
 numpy==2.0.2
-pandas==2.2.2
+pandas==2.3.0
 
 # UI Framework
 flet==0.28.3
