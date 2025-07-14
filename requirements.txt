@@ -11,9 +11,9 @@ sqlalchemy==2.0.41
 # Data Manipulation Libraries:
 
 numpy==2.0.2
-pandas==2.3.0
+pandas==2.3.1
 numpy==2.0.2
-pandas==2.3.0
+pandas==2.3.1
 
 # UI Framework
 flet==0.28.3
