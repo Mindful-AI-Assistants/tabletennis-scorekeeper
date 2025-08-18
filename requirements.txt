@@ -6,7 +6,7 @@ streamlit==1.48.0
 Django==5.1.7
 
 # Database Libraries:
-sqlalchemy==2.0.42
+sqlalchemy==2.0.43
 
 # Data Manipulation Libraries:
 
